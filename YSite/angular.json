@@ -14,7 +14,7 @@
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
 			"baseHref": "/YSite/",
-			"deployUrl": "/YSite/".
+			"deployUrl": "/YSite/",
             "outputPath": "docs/",
             "index": "src/index.html",
             "main": "src/main.ts",
