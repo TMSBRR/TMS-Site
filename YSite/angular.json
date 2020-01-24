@@ -13,9 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-			"baseHref": "/YSite/",
-			"deployUrl": "/YSite/",
-            "outputPath": "docs/",
+			"outputPath": "dist/YSite",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
