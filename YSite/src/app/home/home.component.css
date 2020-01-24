@@ -1,0 +1,19 @@
+.mn {
+    background-image: radial-gradient(#aaa, #fff);
+	
+    image-rendering: auto;
+    
+}
+
+.im{
+	opacity: 1;
+	
+}
+
+body {
+	//background: linear-gradient(#314775, #26a0da);
+	//background: #09A;
+	background-image: url("../../assets/img/main.jpeg");
+	//background-repeat: no-repeat;
+	background-size: cover;
+}

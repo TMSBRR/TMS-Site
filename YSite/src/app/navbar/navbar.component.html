@@ -1,0 +1,71 @@
+
+
+
+
+
+
+<nav class="navbar navbar-dark navbar-expand-md cl fixed-top">
+
+		
+	
+    	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" id="navbar-toggler">
+    	<span class="navbar-toggler-icon"></span></button>
+	
+		<a class="navbar-brand mr-auto brand" href ="#">TMS Site
+		</a>
+		
+		<div class="collapse navbar-collapse" id="Navbar">
+			<ul class="navbar-nav nav-tabs">
+				<li class="nav-item active"><a class="nav-link" routerLink = 'home'><fa-icon [icon]="HomeIcon"></fa-icon>&nbsp;Home</a></li>
+				<li class="nav-item active"><a class="nav-link" routerLink = 'developer'><fa-icon [icon]="CodeIcon"></fa-icon>&nbsp;Development</a></li>
+				<li class="nav-item active"><a class="nav-link" routerLink = 'translator'><fa-icon [icon]="BookIcon"></fa-icon>&nbsp;Translation</a></li>
+				<li class="nav-item active"><a class="nav-link" routerLink = 'about'><fa-icon [icon]="InfoIcon"></fa-icon>&nbsp;About</a></li>
+				<li class="nav-item active"><a class="nav-link" routerLink = 'credits'><fa-icon [icon]="HandIcon"></fa-icon>&nbsp;Credits</a></li>
+			</ul>
+					
+		</div>
+
+	
+	
+	
+</nav>
+
+<script>
+$(document).ready(function(){
+	$("nav-item").click(function(){
+		$("nav-item.active").removeClass("active");
+		$(this).addClass("active");
+	})
+
+})
+
+
+///
+
+$(".nav-item").click(function(){
+	//select all items
+	var all = $(".nav-item");
+	
+	//remove active tag
+	for (let i = 0; i < all.length; i++){
+		all[i].classList.remove("active");
+	}
+	
+	//add "active" tag for currently selected item
+	this.classList.add("active");
+})
+
+///
+
+$(document).ready(function(){
+	$("li").click(function(){
+		$("li.nav-item.active").removeClass("active");
+		$(this).addClass("active");
+	})
+})
+
+
+</script>
+
+
+

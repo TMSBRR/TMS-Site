@@ -1,0 +1,25 @@
+img{
+	height: 450px;
+}
+
+.pad {
+	padding: 40px;
+}
+
+.img-responsive{
+	display:block;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.sep{
+		
+		margin: 0, 50px, 0, 50px;
+}
+
+.wood{
+	background-image: url("../../assets/img/wood2.jpg");
+	border-top-left-radius: 30px;
+	border-top-right-radius: 30px;
+	
+}

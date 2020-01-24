@@ -1,0 +1,37 @@
+
+
+
+<div>
+	<h4 style="text-align:center;">Languages I've studied!</h4>
+	<div *ngFor = "let x of languages">
+			<app-language valor={{x.img}} valor2 ={{x.nombre}}></app-language>
+
+			
+
+
+
+
+	</div>
+
+</div>
+
+<p></p>
+
+
+<div>
+
+<br>
+<br>
+<br>
+<br>
+	<h5>Languages I'm interested:</h5>
+	
+	<div>
+		<div *ngFor = "let x of languages2">
+				<app-language valor={{x.img}} valor2 ={{x.nombre}}></app-language>
+
+
+		</div>
+		
+	</div>
+</div>

@@ -1,0 +1,20 @@
+.ver{
+	
+	background: linear-gradient(to right bottom, #0f0c29 10%, #302b63 70%, #24243e);
+	color: white;
+	
+	
+}
+
+img{
+	margin:10px;
+	padding:10px 5px 10px 5px;
+	width:70px;
+	height:80px;
+}
+
+.jumbotron{
+	margin: 20px !important;
+	padding: 10px !important;
+	background-color: rgb(255, 255, 255);
+}

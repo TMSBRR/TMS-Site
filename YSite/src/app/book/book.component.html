@@ -1,0 +1,61 @@
+
+<div class="container">
+
+<div class="row pad" *ngFor="let Buch of books">
+
+<div class="col-12 col-md-6">
+<div class ="">
+	<img class="img-responsive" src={{Buch.imagen}}>
+</div>
+	
+</div>
+
+<div class="col-12 col-md-6 align-self-end">
+
+            <div class="card space">
+                <h3 class="card-header bg-primary text-white">{{Buch.Titulo}}</h3>
+                <div class="card-body">
+                    <dl class="row">
+                        <dt class="col-6">Idioma Original</dt>
+                        <dd class="col-6">{{Buch.idioma}}</dd>
+                        <dt class="col-6">Autor</dt>
+                        <dd class="col-6">{{Buch.autor}}</dd>
+						
+                       
+                    </dl>
+					
+					<div style="background:gray; text-align:center;">
+					Buy Now!
+					</div>								
+                                
+                    
+							
+							<div style="display:flex; justify-content:center;">
+								<div  class="sep">
+									<app-store valorweb ={{Buch.store.web}} valorimg ={{Buch.store.img}}></app-store>&nbsp;&nbsp;&nbsp;
+								</div>
+											
+								<div  class="sep">
+									<app-store valorweb ={{Buch.store2.web}} valorimg ={{Buch.store2.img}}></app-store>&nbsp;&nbsp;&nbsp;
+								</div>
+								
+								 <div  class="sep">
+									<app-store valorweb ={{Buch.store3.web}} valorimg ={{Buch.store3.img}}></app-store>
+
+								 </div>
+															
+							</div>
+					
+                </div>
+            </div>
+						
+		</div>
+		
+   <div class="container wood"><br><br></div>
+	</div>
+
+					
+</div>
+
+
+
