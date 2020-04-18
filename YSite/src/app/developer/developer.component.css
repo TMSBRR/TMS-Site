@@ -18,3 +18,13 @@ img{
 	padding: 10px !important;
 	background-color: rgb(255, 255, 255);
 }
+
+.cod{
+	font-family: monospace;
+	color: green;
+	background:black;
+}
+
+code{
+	color:green;
+}
