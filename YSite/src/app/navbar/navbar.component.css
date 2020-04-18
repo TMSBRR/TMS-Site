@@ -1,5 +1,9 @@
+
+
 .cl{
-	background: linear-gradient(#e52d27, #b31217);
+	/*background: linear-gradient(#e52d27, #b31217); works */
+	
+	background: linear-gradient(#000, #06f);
 	font-size: 22px;
 	font-weight: bold;
 	display:flex;
