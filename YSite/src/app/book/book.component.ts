@@ -59,6 +59,38 @@ export class BookComponent implements OnInit {
 			img: "",
 			web: ""}
 		
+	},{
+		Titulo: "Meditación fácil para Principiantes - Experimente la Felicidad", 
+		imagen: "assets/img/books/meditacion_facil.jpg", 
+		idioma: "Inglés", 
+		autor: "María Easwaran", 
+		descripcion: "descripción",
+		store: {
+			img: "assets/img/stores/amazon.png",
+			web: "https://www.amazon.com/dp/B086RBQG17"},
+		store2: {
+			img: "",
+			web: ""},
+		store3: {
+			img: "",
+			web: ""}
+		
+	},{
+		Titulo: "Budismo: La Guía Definitiva de Las Enseñanzas Budistas - La Meditación", 
+		imagen: "assets/img/books/budismo.jpg", 
+		idioma: "Inglés", 
+		autor: "Dzongsar Eiger", 
+		descripcion: "descripción",
+		store: {
+			img: "assets/img/stores/amazon.png",
+			web: "https://www.amazon.com/dp/B086RBT5XD"},
+		store2: {
+			img: "",
+			web: ""},
+		store3: {
+			img: "",
+			web: ""}
+		
 	},
 	{
 		Titulo: "Hábitos", 
