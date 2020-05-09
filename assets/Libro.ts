@@ -10,4 +10,8 @@ export class Libro {
 	store: Tienda;
 	store2: Tienda;
 	store3: Tienda;
+	store4: Tienda;
+	store5: Tienda;
+	webpage: Boolean;
+	link: String;
 }
